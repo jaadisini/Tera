@@ -24,8 +24,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_CHAT_ID = int(os.getenv("LOG_CHAT_ID", "123456789"))  # Replace if needed
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7918013937:AAFKZItUUExUPJubRGcDLWgPgj0kdgb3ydI")
+ADMIN_CHAT_ID = int(os.getenv("LOG_CHAT_ID", "-1002651549822"))  # Replace if needed
 API_URL = "https://terabox.sg61x.workers.dev"
 
 TERABOX_PATTERN = (
